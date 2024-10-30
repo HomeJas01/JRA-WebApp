@@ -1,0 +1,8 @@
+<div class="paises">
+  <div class="pais" *ngFor="let pais of paises">
+    <img [src]="pais.flags.png" alt="">
+    <h3>{{pais.translations['es']}}</h3>
+    <p>Capital: {{pais.capital}}</p>
+
+  </div>
+</div>
